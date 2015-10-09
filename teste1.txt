@@ -10,6 +10,8 @@ void loop() {
   digitalWrite(ledPin, HIGH);   // set the LED on
   //delay(1);                  // wait for a second
   delayMicroseconds(1);
+  digitalWrite(ledPin, LOW);    
+  
   //delay(1);  
   delayMicroseconds(1);
 }
